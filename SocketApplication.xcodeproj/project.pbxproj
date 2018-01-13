@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5235E63200A006200AFD27A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5235E62200A006200AFD27A /* AppDelegate.swift */; };
+		A5235E65200A006200AFD27A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5235E64200A006200AFD27A /* ViewController.swift */; };
+		A5235E68200A006200AFD27A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5235E66200A006200AFD27A /* Main.storyboard */; };
+		A5235E6B200A006200AFD27A /* SocketApplication.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5235E69200A006200AFD27A /* SocketApplication.xcdatamodeld */; };
+		A5235E6D200A006200AFD27A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5235E6C200A006200AFD27A /* Assets.xcassets */; };
+		A5235E70200A006200AFD27A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5235E6E200A006200AFD27A /* LaunchScreen.storyboard */; };
+		A5235E7B200A006200AFD27A /* SocketApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5235E7A200A006200AFD27A /* SocketApplicationTests.swift */; };
+		A5235E86200A006200AFD27A /* SocketApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5235E85200A006200AFD27A /* SocketApplicationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5235E77200A006200AFD27A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5235E57200A006200AFD27A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5235E5E200A006200AFD27A;
+			remoteInfo = SocketApplication;
+		};
+		A5235E82200A006200AFD27A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5235E57200A006200AFD27A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5235E5E200A006200AFD27A;
+			remoteInfo = SocketApplication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5235E5F200A006200AFD27A /* SocketApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocketApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5235E62200A006200AFD27A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5235E64200A006200AFD27A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5235E67200A006200AFD27A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5235E6A200A006200AFD27A /* SocketApplication.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SocketApplication.xcdatamodel; sourceTree = "<group>"; };
+		A5235E6C200A006200AFD27A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5235E6F200A006200AFD27A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5235E71200A006200AFD27A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5235E76200A006200AFD27A /* SocketApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocketApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5235E7A200A006200AFD27A /* SocketApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketApplicationTests.swift; sourceTree = "<group>"; };
+		A5235E7C200A006200AFD27A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5235E81200A006200AFD27A /* SocketApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocketApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5235E85200A006200AFD27A /* SocketApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketApplicationUITests.swift; sourceTree = "<group>"; };
+		A5235E87200A006200AFD27A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5235E5C200A006200AFD27A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5235E73200A006200AFD27A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5235E7E200A006200AFD27A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5235E56200A006200AFD27A = {
+			isa = PBXGroup;
+			children = (
+				A5235E61200A006200AFD27A /* SocketApplication */,
+				A5235E79200A006200AFD27A /* SocketApplicationTests */,
+				A5235E84200A006200AFD27A /* SocketApplicationUITests */,
+				A5235E60200A006200AFD27A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5235E60200A006200AFD27A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5235E5F200A006200AFD27A /* SocketApplication.app */,
+				A5235E76200A006200AFD27A /* SocketApplicationTests.xctest */,
+				A5235E81200A006200AFD27A /* SocketApplicationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5235E61200A006200AFD27A /* SocketApplication */ = {
+			isa = PBXGroup;
+			children = (
+				A5235E62200A006200AFD27A /* AppDelegate.swift */,
+				A5235E64200A006200AFD27A /* ViewController.swift */,
+				A5235E66200A006200AFD27A /* Main.storyboard */,
+				A5235E6C200A006200AFD27A /* Assets.xcassets */,
+				A5235E6E200A006200AFD27A /* LaunchScreen.storyboard */,
+				A5235E71200A006200AFD27A /* Info.plist */,
+				A5235E69200A006200AFD27A /* SocketApplication.xcdatamodeld */,
+			);
+			path = SocketApplication;
+			sourceTree = "<group>";
+		};
+		A5235E79200A006200AFD27A /* SocketApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5235E7A200A006200AFD27A /* SocketApplicationTests.swift */,
+				A5235E7C200A006200AFD27A /* Info.plist */,
+			);
+			path = SocketApplicationTests;
+			sourceTree = "<group>";
+		};
+		A5235E84200A006200AFD27A /* SocketApplicationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5235E85200A006200AFD27A /* SocketApplicationUITests.swift */,
+				A5235E87200A006200AFD27A /* Info.plist */,
+			);
+			path = SocketApplicationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5235E5E200A006200AFD27A /* SocketApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5235E8A200A006200AFD27A /* Build configuration list for PBXNativeTarget "SocketApplication" */;
+			buildPhases = (
+				A5235E5B200A006200AFD27A /* Sources */,
+				A5235E5C200A006200AFD27A /* Frameworks */,
+				A5235E5D200A006200AFD27A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketApplication;
+			productName = SocketApplication;
+			productReference = A5235E5F200A006200AFD27A /* SocketApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5235E75200A006200AFD27A /* SocketApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5235E8D200A006200AFD27A /* Build configuration list for PBXNativeTarget "SocketApplicationTests" */;
+			buildPhases = (
+				A5235E72200A006200AFD27A /* Sources */,
+				A5235E73200A006200AFD27A /* Frameworks */,
+				A5235E74200A006200AFD27A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5235E78200A006200AFD27A /* PBXTargetDependency */,
+			);
+			name = SocketApplicationTests;
+			productName = SocketApplicationTests;
+			productReference = A5235E76200A006200AFD27A /* SocketApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5235E80200A006200AFD27A /* SocketApplicationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5235E90200A006200AFD27A /* Build configuration list for PBXNativeTarget "SocketApplicationUITests" */;
+			buildPhases = (
+				A5235E7D200A006200AFD27A /* Sources */,
+				A5235E7E200A006200AFD27A /* Frameworks */,
+				A5235E7F200A006200AFD27A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5235E83200A006200AFD27A /* PBXTargetDependency */,
+			);
+			name = SocketApplicationUITests;
+			productName = SocketApplicationUITests;
+			productReference = A5235E81200A006200AFD27A /* SocketApplicationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5235E57200A006200AFD27A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Slash Global";
+				TargetAttributes = {
+					A5235E5E200A006200AFD27A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					A5235E75200A006200AFD27A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A5235E5E200A006200AFD27A;
+					};
+					A5235E80200A006200AFD27A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A5235E5E200A006200AFD27A;
+					};
+				};
+			};
+			buildConfigurationList = A5235E5A200A006200AFD27A /* Build configuration list for PBXProject "SocketApplication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5235E56200A006200AFD27A;
+			productRefGroup = A5235E60200A006200AFD27A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5235E5E200A006200AFD27A /* SocketApplication */,
+				A5235E75200A006200AFD27A /* SocketApplicationTests */,
+				A5235E80200A006200AFD27A /* SocketApplicationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5235E5D200A006200AFD27A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5235E70200A006200AFD27A /* LaunchScreen.storyboard in Resources */,
+				A5235E6D200A006200AFD27A /* Assets.xcassets in Resources */,
+				A5235E68200A006200AFD27A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5235E74200A006200AFD27A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5235E7F200A006200AFD27A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5235E5B200A006200AFD27A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5235E6B200A006200AFD27A /* SocketApplication.xcdatamodeld in Sources */,
+				A5235E65200A006200AFD27A /* ViewController.swift in Sources */,
+				A5235E63200A006200AFD27A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5235E72200A006200AFD27A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5235E7B200A006200AFD27A /* SocketApplicationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5235E7D200A006200AFD27A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5235E86200A006200AFD27A /* SocketApplicationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5235E78200A006200AFD27A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5235E5E200A006200AFD27A /* SocketApplication */;
+			targetProxy = A5235E77200A006200AFD27A /* PBXContainerItemProxy */;
+		};
+		A5235E83200A006200AFD27A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5235E5E200A006200AFD27A /* SocketApplication */;
+			targetProxy = A5235E82200A006200AFD27A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5235E66200A006200AFD27A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5235E67200A006200AFD27A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5235E6E200A006200AFD27A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5235E6F200A006200AFD27A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5235E88200A006200AFD27A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5235E89200A006200AFD27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5235E8B200A006200AFD27A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SocketApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HigherVisibility.SocketApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A5235E8C200A006200AFD27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SocketApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HigherVisibility.SocketApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A5235E8E200A006200AFD27A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SocketApplicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HigherVisibility.SocketApplicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocketApplication.app/SocketApplication";
+			};
+			name = Debug;
+		};
+		A5235E8F200A006200AFD27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SocketApplicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HigherVisibility.SocketApplicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocketApplication.app/SocketApplication";
+			};
+			name = Release;
+		};
+		A5235E91200A006200AFD27A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SocketApplicationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HigherVisibility.SocketApplicationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SocketApplication;
+			};
+			name = Debug;
+		};
+		A5235E92200A006200AFD27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SocketApplicationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HigherVisibility.SocketApplicationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SocketApplication;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5235E5A200A006200AFD27A /* Build configuration list for PBXProject "SocketApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5235E88200A006200AFD27A /* Debug */,
+				A5235E89200A006200AFD27A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5235E8A200A006200AFD27A /* Build configuration list for PBXNativeTarget "SocketApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5235E8B200A006200AFD27A /* Debug */,
+				A5235E8C200A006200AFD27A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A5235E8D200A006200AFD27A /* Build configuration list for PBXNativeTarget "SocketApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5235E8E200A006200AFD27A /* Debug */,
+				A5235E8F200A006200AFD27A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A5235E90200A006200AFD27A /* Build configuration list for PBXNativeTarget "SocketApplicationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5235E91200A006200AFD27A /* Debug */,
+				A5235E92200A006200AFD27A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A5235E69200A006200AFD27A /* SocketApplication.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A5235E6A200A006200AFD27A /* SocketApplication.xcdatamodel */,
+			);
+			currentVersion = A5235E6A200A006200AFD27A /* SocketApplication.xcdatamodel */;
+			path = SocketApplication.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A5235E57200A006200AFD27A /* Project object */;
+}
